@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+REGISTER NEW USER
+</title>
+</head>
+<br>
+<body style="background-color:black;">
+<br>
+
+<form action="action_add.php" method="post">
+<fieldset style="background-color:rgb(255,102,51);">
+<legend style="font-size:40px;background-color:black; color:rgb(178,204,51);"><u>SIGN UP</u></legend>
+Name:
+<br>
+<input style="background-color:rgb(178,204,51);" type="text" name="name" pattern="[A-Za-z .]*" required>
+<br>
+<br>
+ID:
+<br>
+<input style="background-color:rgb(178,204,51);" type="number" name="ID" min="100000000" max="999999999">
+<br>
+<br>
+Designation:
+<br>
+<input style="background-color:rgb(178,204,51);" type="text" name="post" required>
+<br>
+<br>
+Email Id:
+<br>
+<input style="background-color:rgb(178,204,51);" type="email" name="mail">
+<br>
+<br>
+Username
+<br>
+<input name="username" style="background-color:rgb(178,204,51);" type="text">
+<br>
+<br>
+Access Level:
+<br>
+<input style="background-color:rgb(178,204,51);" type="text" name="access" value="Viewer" readonly>
+<br>
+<br>
+<br>
+Password:
+<br>
+<input style="background-color:rgb(178,204,51);" type="text" name="password" >
+<br>
+<br>
+<input type="submit" style="background-color:black; color:rgb(178,204,51);" value="Register">
+</fieldset>
+</form>
